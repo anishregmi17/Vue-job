@@ -1,5 +1,5 @@
 <script setup>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 </script>
 
 <template>
@@ -9,27 +9,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
     </div>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/your-profile" target="_blank">
         <font-awesome-icon icon="linkedin" />
       </a>
-      <a href="https://github.com/your-profile" target="_blank">
-        <font-awesome-icon icon="github" />
-      </a>
-      <a href="https://twitter.com/your-profile" target="_blank">
-        <font-awesome-icon icon="twitter" />
-      </a>
-      <a href="https://www.instagram.com/your-profile" target="_blank">
-        <font-awesome-icon icon="instagram" />
-      </a>
     </div>
   </nav>
 </template>
-
-
 
 <style scoped>
 .navbar {
