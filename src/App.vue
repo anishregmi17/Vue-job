@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    <h1>Vue.js To-Do List</h1>
-    <todo-list />
+    <Navbar />
   </div>
 </template>
 
 <script>
-import TodoList from "./components/TodoList.vue";
+import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "App",
   components: {
-    TodoList,
+    Navbar,
   },
 };
 </script>
 
 <style scoped>
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 </style>
